@@ -23,7 +23,7 @@ dotfiles_files:
 
 homebrew_taps:
   - homebrew/cask
-  - wallix/awless
+  # - wallix/awless
   - homebrew/cask-fonts
   - homebrew/cask-versions
   - aws/tap
@@ -63,21 +63,21 @@ homebrew_installed_packages:
   
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - google-chrome
+  # - google-chrome
   # - brave-browser
   - firefox
-  - discord
+  # - discord
   - iterm2
   # - vlc
   - visual-studio-code
   # - jetbrains-toolbox
   # - deepl
   # - messenger
-  - zoomus
+  # - zoomus
   # - whatsapp
   - font-jetbrains-mono
   - postman
-  - transmission
+  # - transmission
   # - transmit
   # - pocket-casts
   # Added by me
