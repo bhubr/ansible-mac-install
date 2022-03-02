@@ -63,12 +63,12 @@ homebrew_installed_packages:
   
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # - google-chrome
+  - google-chrome
   # - brave-browser
   - firefox
-  # - discord
+  - discord
   - iterm2
-  # - vlc
+  - vlc
   - visual-studio-code
   # - jetbrains-toolbox
   # - deepl
