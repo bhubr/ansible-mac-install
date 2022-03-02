@@ -1,5 +1,5 @@
 ---
-project_dir: ~/Project
+project_dir: ~/Code
 downloads_dir: ~/Downloads
 
 downloads: ~/.ansible-downloads/
@@ -36,12 +36,12 @@ homebrew_installed_packages:
   - wget
   - curl
   - htop
-  - kubernetes-cli
-  - kubernetes-helm
-  - mas
-  - ncdu
-  - packer
-  - terraform
+  # - kubernetes-cli
+  # - kubernetes-helm
+  # - mas
+  # - ncdu
+  # - packer
+  # - terraform
   - zsh
   - tree
   - dockutil
@@ -55,55 +55,65 @@ homebrew_installed_packages:
   - vim
   - wget
   - glances
+  # Added by me
+  - gh
+  - ncftp
+  - mysql@5.7
+  - redis
   
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome
-  - brave-browser
+  # - brave-browser
   - firefox
   - discord
   - iterm2
-  - vlc
+  # - vlc
   - visual-studio-code
-  - jetbrains-toolbox
-  - deepl
-  - messenger
+  # - jetbrains-toolbox
+  # - deepl
+  # - messenger
   - zoomus
-  - whatsapp
+  # - whatsapp
   - font-jetbrains-mono
   - postman
   - transmission
-  - transmit
-  - pocket-casts
+  # - transmit
+  # - pocket-casts
+  # Added by me
+  - mpv
+  - flux
+  - rectangle
+  - signal
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_signin_dialog: yes
-mas_installed_apps:
-  - { id: 747648890, name: "Telegram" }
-  - { id: 409183694, name: "Keynote" }
-  - { id: 409203825, name: "Numbers" }
-  - { id: 409201541, name: "Pages" }
-  - { id: 557168941, name: "Tweetbot for Twitter" }
-  - { id: 462054704, name: "Microsoft Word" }
-  - { id: 462058435, name: "Microsoft Excel" }
-  - { id: 462062816, name: "Microsoft Powerpoint" }
-  - { id: 985367838, name: "Microsoft Outlook" }
-  - { id: 803453959, name: "Slack" }
-  - { id: 1176895641, name: "Spark – Email App by Readdle" }
-  - { id: 1333542190, name: "1Password 7 - Password Manager" }
-  - { id: 1284863847, name: "Unsplash Wallpapers" }
+# mas_signin_dialog: yes
+# mas_installed_apps:
+#   - { id: 747648890, name: "Telegram" }
+#   - { id: 409183694, name: "Keynote" }
+#   - { id: 409203825, name: "Numbers" }
+#   - { id: 409201541, name: "Pages" }
+#   - { id: 557168941, name: "Tweetbot for Twitter" }
+#   - { id: 462054704, name: "Microsoft Word" }
+#   - { id: 462058435, name: "Microsoft Excel" }
+#   - { id: 462062816, name: "Microsoft Powerpoint" }
+#   - { id: 985367838, name: "Microsoft Outlook" }
+#   - { id: 803453959, name: "Slack" }
+#   - { id: 1176895641, name: "Spark – Email App by Readdle" }
+#   - { id: 1333542190, name: "1Password 7 - Password Manager" }
+#   - { id: 1284863847, name: "Unsplash Wallpapers" }
 
-mas_upgrade_all_apps: yes
+# mas_upgrade_all_apps: yes
 
 osx_script: "~/.osx --no-restart"
 
 dockitems_disabled:
-  - Launchpad
+  # - Launchpad
   - Siri
   - Mail
   - Safari
   - Contacts
-  - Notes
+  # - Notes
   - Rappels
   - Maps
   - Photos
@@ -127,6 +137,6 @@ dockitems_enabled:
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
     pos: 3
-  - name: Telegram
-    path: "/Applications/Telegram.app"
-    pos: 4
+  # - name: Telegram
+  #   path: "/Applications/Telegram.app"
+  #   pos: 4
